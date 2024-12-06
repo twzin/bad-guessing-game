@@ -5,8 +5,8 @@ use rand::Rng;
 fn main() {
     // Função principal com o "jogo" de advinhação
     println!("The computer will choose a random number between 1 and 5.
-You'll try to get the number right.
-If you miss it, System32 will be deleted. Good Luck!");
+    You'll try to get the number right.
+    If you miss it, System32 will be deleted. Good Luck!");
     println!("Write a number: ");
     let mut num_str: String = String::new();
     io::stdin().read_line(&mut num_str).expect("Error reading line");
